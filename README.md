@@ -11,7 +11,7 @@ usermod -aG docker zabbix
 service zabbix-agent2 restart
 vim /lib/systemd/system/docker.service
 ```
-Após estas instalações vamos precisar a linha que começa com ExecStart do deamon do docker
+Após estas instalações vamos precisar alterar linha que começa com ExecStart do deamon do docker
 ```
 ExecStart=/usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock -H tcp://0.0.0.0:4243 -H unix:///var/run/docker.sock
 ```
