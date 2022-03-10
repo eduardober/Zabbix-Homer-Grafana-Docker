@@ -20,7 +20,7 @@ git clone https://github.com/eduardober/Zabbix-Homer-Grafana-Docker.git
 cd Zabbix-Homer-Grafana-Docker
 vim docker-compose.yml
 ```
-após estas configurações temos ainda que alterar o link do banco do zabbix colocando o ip da máquina. Após essa alteração poderemos subir todos os sistemas
+Após estas configurações temos ainda que alterar o link do banco do zabbix colocando o ip da máquina. Após essa alteração poderemos subir todos os sistemas
 ```
 docker-compose up -d
 ```
