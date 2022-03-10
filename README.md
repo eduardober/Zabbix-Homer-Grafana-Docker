@@ -10,5 +10,5 @@ docker-compose up -d
 ## Zabbix: IP:9070
 
 ## Homer: IP:9080
-- [Expo](https://expo.io/)
+
 ##### Many thanks to [Zabbix](https://github.com/zabbix), [SipCapture](https://github.com/sipcapture), [Grafana](https://github.com/grafana) and [Prometheus](https://github.com/prometheus)
